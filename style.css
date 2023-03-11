@@ -1,40 +1,40 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-main{
+main {
     max-width: 800px;
-    margin:auto;
+    margin: auto;
 }
 
-section div img{
+section div img {
     width: 100%;
 }
 
-section{
+section {
     display: grid;
     grid-template-columns: 50px auto 50px;
     grid-template-areas: "b n j";
 }
 
-section .nagykep{
+section .nagykep {
     grid-area: n;
 }
 
-section .jobb{
+section .jobb {
     grid-area: j;
 }
 
-section .bal{
+section .bal {
     grid-area: b;
 }
 
-article .kiskep{
+article .kiskep {
     display: flex;
 }
 
-article .kiskep img{
+article .kiskep img {
     width: 20%;
-}  
+}
