@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    max-width: 800px;
+    margin:auto;
+}
+
+section div img{
+    width: 100%;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-template-areas: "b n j";
+}
+
+section .nagykep{
+    grid-area: n;
+}
+
+section .jobb{
+    grid-area: j;
+}
+
+section .bal{
+    grid-area: b;
+}
+
+article .kiskep{
+    display: flex;
+}
+
+article .kiskep img{
+    width: 20%;
+}  
