@@ -39,8 +39,8 @@ function kirak(mit, hova) {
 }
 
 function kattintasKezelo(i, event) {
-    console.log(event.target)
-    console.log(event.target.src)
+    //console.log(event.target)
+    //console.log(event.target.src)
     const NAGYKEP = document.querySelector(".nagykep img");
     console.log(NAGYKEP);
     NAGYKEP.src = KEPEK[i];
